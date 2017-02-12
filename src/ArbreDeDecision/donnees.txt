@@ -1,0 +1,21 @@
+attribut Ciel {soleil,couvert,pluie}
+attribut temperture {chaud,froid,doux}
+attribut humidite {elevee,normale}
+attribut vent {faible,fort}
+attribut jouer {NON,OUI}
+
+data
+soleil,chaud,elevee,faible,NON
+soleil,chaud,elevee,fort,NON
+couvert,chaud,elevee,faible,OUI
+pluie,doux,elevee,faible,OUI
+pluie,froid,normale,faible,OUI
+pluie,froid,normale,fort,NON
+couvert,froid,normale,fort,OUI
+soleil,doux,elevee,faible,NON
+soleil,froid,normale,faible,OUI
+pluie,doux,normale,faible,OUI
+soleil,doux,normale,fort,OUI
+couvert,doux,elevee,fort,OUI
+couvert,chaud,normale,faible,OUI
+pluie,doux,elevee,fort,NON
